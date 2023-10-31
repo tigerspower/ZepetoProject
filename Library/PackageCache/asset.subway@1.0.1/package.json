@@ -1,0 +1,32 @@
+{
+  "name": "asset.subway",
+  "scope": "asset",
+  "displayName": "Subway",
+  "version": "1.0.1",
+  "unity": "2020.3",
+  "description": "Subway",
+  "documentationUrl": "https://docs.zepeto.me/studio/reference/subway_theme",
+  "keywords": [
+    "asset",
+    "subway"
+  ],
+  "license": "LICENSE.md",
+  "licensesUrl": "https://docs.zepeto.me/studio/reference/zepeto_world_license",
+  "category": "Unity",
+  "hideInEditor": false,
+  "author": {
+    "name": "ZEPETO Asset",
+    "email": "support@zepeto.me",
+    "url": "https://zepeto.me"
+  },
+  "dependencies": {
+    "asset.commons": "1.0.5"
+  },
+  "samples": [
+    {
+      "displayName": "Subway Sample Scene",
+      "description": "Subway Sample Scene",
+      "path": "Samples~/SampleScene"
+    }
+  ]
+}

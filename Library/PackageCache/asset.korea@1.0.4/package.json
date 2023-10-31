@@ -1,0 +1,32 @@
+{
+  "name": "asset.korea",
+  "scope": "asset",
+  "displayName": "Korea",
+  "version": "1.0.4",
+  "unity": "2020.3",
+  "description": "Korea",
+  "documentationUrl": "https://docs.zepeto.me/studio/reference/korea_theme",
+  "keywords": [
+    "asset",
+    "korea"
+  ],
+  "license": "LICENSE.md",
+  "licensesUrl": "https://docs.zepeto.me/studio/reference/zepeto_world_license",
+  "category": "Unity",
+  "hideInEditor": false,
+  "author": {
+    "name": "ZEPETO Asset",
+    "email": "support@zepeto.me",
+    "url": "https://zepeto.me"
+  },
+  "dependencies": {
+    "asset.commons": "1.0.5"
+  },
+  "samples": [
+    {
+      "displayName": "Korea Sample Scene",
+      "description": "Korea Sample Scene",
+      "path": "Samples~/SampleScene"
+    }
+  ]
+}

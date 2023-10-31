@@ -1,0 +1,32 @@
+{
+  "name": "asset.snowvillage",
+  "scope": "asset",
+  "displayName": "Snow Village",
+  "version": "1.0.2",
+  "unity": "2020.3",
+  "description": "Snow Village",
+  "documentationUrl": "https://docs.zepeto.me/studio/reference/snowvillage_theme",
+  "keywords": [
+    "asset",
+    "snow village"
+  ],
+  "license": "LICENSE.md",
+  "licensesUrl": "https://docs.zepeto.me/studio/reference/zepeto_world_license",
+  "category": "Unity",
+  "hideInEditor": false,
+  "author": {
+    "name": "ZEPETO Asset",
+    "email": "support@zepeto.me",
+    "url": "https://zepeto.me"
+  },
+  "dependencies": {
+    "asset.commons": "1.0.5"
+  },
+  "samples": [
+    {
+      "displayName": "Snow Village Sample Scene",
+      "description": "Snow Village Sample Scene",
+      "path": "Samples~/SampleScene"
+    }
+  ]
+}

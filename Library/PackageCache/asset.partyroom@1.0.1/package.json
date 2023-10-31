@@ -1,0 +1,32 @@
+{
+  "name": "asset.partyroom",
+  "scope": "asset",
+  "displayName": "Party Room",
+  "version": "1.0.1",
+  "unity": "2020.3",
+  "description": "Party Room",
+  "documentationUrl": "https://docs.zepeto.me/studio/reference/party_theme",
+  "keywords": [
+    "asset",
+    "party room"
+  ],
+  "license": "LICENSE.md",
+  "licensesUrl": "https://docs.zepeto.me/studio/reference/zepeto_world_license",
+  "category": "Unity",
+  "hideInEditor": false,
+  "author": {
+    "name": "ZEPETO Asset",
+    "email": "support@zepeto.me",
+    "url": "https://zepeto.me"
+  },
+  "dependencies": {
+    "asset.commons": "1.0.5"
+  },
+  "samples": [
+    {
+      "displayName": "Party Room Sample Scene",
+      "description": "Party Room Sample Scene",
+      "path": "Samples~/SampleScene"
+    }
+  ]
+}

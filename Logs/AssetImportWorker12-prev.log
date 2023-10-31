@@ -1,0 +1,449 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 65462 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+C:/Users/GACHON/ZepetoProject
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+50820
+Successfully changed project path to: C:/Users/GACHON/ZepetoProject
+C:/Users/GACHON/ZepetoProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17948] Host "[IP] 192.9.126.253 [Port] 0 [Flags] 2 [Guid] 632284994 [EditorId] 632284994 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JK75FKM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17948] Host "[IP] 192.9.126.253 [Port] 0 [Flags] 2 [Guid] 632284994 [EditorId] 632284994 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JK75FKM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 95.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/GACHON/ZepetoProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010544 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 91.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.531 seconds
+Domain Reload Profiling:
+	ReloadAssembly (531ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (359ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006578 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\GACHON\ZepetoProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\GACHON\ZepetoProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Domain Reload Profiling:
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (579ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.5 KB). Loaded Objects now: 3538.
+Memory consumption went from 124.0 MB to 123.9 MB.
+Total: 2.474400 ms (FindLiveObjects: 0.231700 ms CreateObjectMapping: 0.110200 ms MarkObjects: 2.044000 ms  DeleteObjects: 0.087900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 98922.780935 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_buildings_closedoor.prefab
+  artifactKey: Guid(36f476de1b2714f48a0e4ae9188e339c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_buildings_closedoor.prefab using Guid(36f476de1b2714f48a0e4ae9188e339c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c518c3d6db8de0d4095d3e3edabe4ab') in 0.101697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_buildings_opendoor.prefab
+  artifactKey: Guid(19f02289e8fd2400a8f93ce09ee24fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_buildings_opendoor.prefab using Guid(19f02289e8fd2400a8f93ce09ee24fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd966758c441b7032677fdd9ca76f2b3c') in 0.011532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_bookshelf2.prefab
+  artifactKey: Guid(ab5b4d8da5f2f4623b44e436d9325c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_bookshelf2.prefab using Guid(ab5b4d8da5f2f4623b44e436d9325c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ceebd93dec0ab0d0e4858f6fd903ea5') in 0.014491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.652521 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_brazier.prefab
+  artifactKey: Guid(0c9ea8f41753746c9b900a1700cb495b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_brazier.prefab using Guid(0c9ea8f41753746c9b900a1700cb495b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464b1333eaae8e90ffa4fb320a54f76b') in 0.014095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018004 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_cabinet2.prefab
+  artifactKey: Guid(e997b0f0db7da4b93b98e85cc3232e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_cabinet2.prefab using Guid(e997b0f0db7da4b93b98e85cc3232e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e040353fbf1de11cb59c922f421c2f') in 0.170377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.206250 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_desk3.prefab
+  artifactKey: Guid(3c1d2d68103ea4d509aead15004bcc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_desk3.prefab using Guid(3c1d2d68103ea4d509aead15004bcc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece471be98f08c9b958d561573b1a106') in 0.011319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024943 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_diningtable.prefab
+  artifactKey: Guid(76ce4b6bbe9c9492982c65927e8a1ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_diningtable.prefab using Guid(76ce4b6bbe9c9492982c65927e8a1ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5045dc7827d5a285a9104eaae6007e79') in 0.010257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010948 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_fireplace.prefab
+  artifactKey: Guid(0ceba29f9ffda47a59ba97e3800ea740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_fireplace.prefab using Guid(0ceba29f9ffda47a59ba97e3800ea740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73ed16e1c47245a076a8478623c2c5c') in 0.010355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007895 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_shelf.prefab
+  artifactKey: Guid(626147e284677484ab6a7d3acc22dd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_shelf.prefab using Guid(626147e284677484ab6a7d3acc22dd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4940011b29ea148ccf4c4fc0d5745517') in 0.009562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.275800 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_sinkdresser.prefab
+  artifactKey: Guid(c7b605272eb2a45f3a815bff3cc1cb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_sinkdresser.prefab using Guid(c7b605272eb2a45f3a815bff3cc1cb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fc7e95a8131ea44ec8b9729cd80cc9') in 0.018495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009941 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_sofa2.prefab
+  artifactKey: Guid(8bfa6a7b60be242b18554d49982e5f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_sofa2.prefab using Guid(8bfa6a7b60be242b18554d49982e5f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38f1ed2b3fe8a7101ff553691f1c176') in 0.010339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015815 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_table1.prefab
+  artifactKey: Guid(6a2d76d03e6fe44798b897e202f0dc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_table1.prefab using Guid(6a2d76d03e6fe44798b897e202f0dc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0248b1acbbf620098d7f79a9bf031bd3') in 0.010021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.235882 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_washstand.prefab
+  artifactKey: Guid(11c3294b11dfc41c9b2c9141c8dc9f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_furniture_washstand.prefab using Guid(11c3294b11dfc41c9b2c9141c8dc9f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e90d3f33fdf9a56b2f71c221fc389ab') in 0.021370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016373 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_light_candle3.prefab
+  artifactKey: Guid(6ed10751c32ef43789d647990fb2664c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_light_candle3.prefab using Guid(6ed10751c32ef43789d647990fb2664c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6e20c8d09b153b1f25b90c790f7ba4') in 0.009539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007655 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_light_candle5.prefab
+  artifactKey: Guid(6461dda5020654a4ea98c13e96bbb763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_light_candle5.prefab using Guid(6461dda5020654a4ea98c13e96bbb763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d61472455ece77b479658c7014d6e4') in 0.011881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.272978 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_light_spiderlamp.prefab
+  artifactKey: Guid(4f2f253f9fe2542adae8085f52fff7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_light_spiderlamp.prefab using Guid(4f2f253f9fe2542adae8085f52fff7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15778f0fc68e2099cc38c13f834aa38d') in 0.104232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.156575 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_nature_groundstone.prefab
+  artifactKey: Guid(87417fa8a76b144eaa17d22ee64e850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_nature_groundstone.prefab using Guid(87417fa8a76b144eaa17d22ee64e850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162c703cbbff3dc81d311a1952521e09') in 0.010371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019797 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_barrel1.prefab
+  artifactKey: Guid(0bf19e299a40649639f4e512211988f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_barrel1.prefab using Guid(0bf19e299a40649639f4e512211988f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95449ac94ed133908e26497b206fd89b') in 0.009119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025270 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_bookset3.prefab
+  artifactKey: Guid(dfe0edd228b5949aa93d5af1893b23eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_bookset3.prefab using Guid(dfe0edd228b5949aa93d5af1893b23eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54a6a16391e3ce9da48d249c1732a56') in 0.008957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.267629 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_broom.prefab
+  artifactKey: Guid(0d7f8ec499b34448aa752ae16941f4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_broom.prefab using Guid(0d7f8ec499b34448aa752ae16941f4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7348c17e5f401e62f11ac88d4f46cf9b') in 0.009526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010980 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_carpet2.prefab
+  artifactKey: Guid(640f153eb757e48c782a14b1dba879b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_carpet2.prefab using Guid(640f153eb757e48c782a14b1dba879b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74bc33dc51891ede6a35413238be33c') in 0.010214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009106 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_coffin2.prefab
+  artifactKey: Guid(843a97e4e671949aa8ceea4314ad9ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_coffin2.prefab using Guid(843a97e4e671949aa8ceea4314ad9ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6629286014531482bdae2e0d26d347f') in 0.012498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013810 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_fruitbowl1.prefab
+  artifactKey: Guid(b6f583d90f1814ae2853683961affc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_fruitbowl1.prefab using Guid(b6f583d90f1814ae2853683961affc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dec4a8288efcabb389f872ed71dd80c') in 0.013792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.257555 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_glassbottle1.prefab
+  artifactKey: Guid(cd911dfa13171478eab4d3f0c78f3577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_glassbottle1.prefab using Guid(cd911dfa13171478eab4d3f0c78f3577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf4e653743f43b27248b62ec10a0fe5') in 0.011476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040489 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_glassbottle3.prefab
+  artifactKey: Guid(5a50bdf1b613841cb8d8c6a4954cee8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_glassbottle3.prefab using Guid(5a50bdf1b613841cb8d8c6a4954cee8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e31cc7d7188b659cff15d892f9decbc') in 0.011415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010228 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_glassbottle5.prefab
+  artifactKey: Guid(2867f06e61d62402dafddd932fd765b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_props_glassbottle5.prefab using Guid(2867f06e61d62402dafddd932fd765b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f7d77bc0c23b2937c0651a6e0405d9') in 0.012981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.271978 seconds.
+  path: Packages/asset.wedding/Prefabs/wedding_trees_cedar1.prefab
+  artifactKey: Guid(9bc87f69303814b34960859b874c69b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.wedding/Prefabs/wedding_trees_cedar1.prefab using Guid(9bc87f69303814b34960859b874c69b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff493a6fd282ba0a91ddc07ca27144a5') in 0.011880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/asset.wedding/Prefabs/wedding_trees_cedar3.prefab
+  artifactKey: Guid(20e041d63d9f24f4b80757eb4d36bf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.wedding/Prefabs/wedding_trees_cedar3.prefab using Guid(20e041d63d9f24f4b80757eb4d36bf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25402305f79dd999a497cd82914d7c7b') in 0.011806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.335128 seconds.
+  path: Packages/asset.themepark/Prefabs/themepark_trees_spruce3.prefab
+  artifactKey: Guid(971d6ba0de03f45038d93e43d0fe404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.themepark/Prefabs/themepark_trees_spruce3.prefab using Guid(971d6ba0de03f45038d93e43d0fe404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d0760eb27fd3c3e24236bcc1bb5c37') in 0.018997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.233506 seconds.
+  path: Packages/asset.themepark/Prefabs/themepark_trees_spruce1.prefab
+  artifactKey: Guid(f20f4ee00784f485f9534d11ebb575fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.themepark/Prefabs/themepark_trees_spruce1.prefab using Guid(f20f4ee00784f485f9534d11ebb575fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8b1e538cae7d41fd478c1227f8dcb9') in 0.019026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.161276 seconds.
+  path: Packages/asset.themepark/Prefabs/themepark_traffic_streetlight1.prefab
+  artifactKey: Guid(0efaef9cb928e46469b2020793da65e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.themepark/Prefabs/themepark_traffic_streetlight1.prefab using Guid(0efaef9cb928e46469b2020793da65e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad483011c52710c63f9ec0c94b256fb') in 0.009985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050271 seconds.
+  path: Packages/asset.sugarland/Prefabs/sugarland_food_pinksugartree.prefab
+  artifactKey: Guid(e54c1a327c08b4e6bbb4ede84385dd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.sugarland/Prefabs/sugarland_food_pinksugartree.prefab using Guid(e54c1a327c08b4e6bbb4ede84385dd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addde6e2af98dbf605f1d1b718a25a03') in 0.014963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028996 seconds.
+  path: Packages/asset.snowvillage/Prefabs/snowvillage_trees_snowytree4.prefab
+  artifactKey: Guid(6417eef850841439ab908d4544a93aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.snowvillage/Prefabs/snowvillage_trees_snowytree4.prefab using Guid(6417eef850841439ab908d4544a93aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7926a95d67dc675f1fe36de3b5df372f') in 0.011794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.169254 seconds.
+  path: Packages/asset.snowvillage/Prefabs/snowvillage_trees_snowytree2.prefab
+  artifactKey: Guid(2ce38d71040f34d1d854a43fb8c11167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.snowvillage/Prefabs/snowvillage_trees_snowytree2.prefab using Guid(2ce38d71040f34d1d854a43fb8c11167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb3da834d2eaf93effa37282205e23a') in 0.013027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.383544 seconds.
+  path: Packages/asset.snowvillage/Prefabs/snowvillage_trees_christmastree4.prefab
+  artifactKey: Guid(213cd98d73c7b49778200c52465070ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.snowvillage/Prefabs/snowvillage_trees_christmastree4.prefab using Guid(213cd98d73c7b49778200c52465070ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df3d4caf6a7429dbc8f2750b82d88a3') in 0.023686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014721 seconds.
+  path: Packages/asset.snowvillage/Prefabs/snowvillage_trees_christmastree2.prefab
+  artifactKey: Guid(7ed7e73fe08f242db98664eb3f77c07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.snowvillage/Prefabs/snowvillage_trees_christmastree2.prefab using Guid(7ed7e73fe08f242db98664eb3f77c07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca16ccc31da816b36aa7c49d89c69073') in 0.116580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012059 seconds.
+  path: Packages/asset.snowvillage/Prefabs/snowvillage_traffic_snowystreetlight.prefab
+  artifactKey: Guid(d43ff2f1ed727417ea0c81bc2b35ef3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.snowvillage/Prefabs/snowvillage_traffic_snowystreetlight.prefab using Guid(d43ff2f1ed727417ea0c81bc2b35ef3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170b43a2dd068eb7145b228d27cffc19') in 0.011461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.377716 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_trees_greytree3.prefab
+  artifactKey: Guid(565990c649d6b4d39b06a7c7334fc995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_trees_greytree3.prefab using Guid(565990c649d6b4d39b06a7c7334fc995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a53d1589a38480abea152a54f2aa5a') in 0.018388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065949 seconds.
+  path: Packages/asset.mysteryhouse/Prefabs/mysteryhouse_trees_greytree1.prefab
+  artifactKey: Guid(f5c721c12f63c4abb8949e0a6688f5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.mysteryhouse/Prefabs/mysteryhouse_trees_greytree1.prefab using Guid(f5c721c12f63c4abb8949e0a6688f5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed76096b5f8190e3129b4201cd7efcf7') in 0.010367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.329620 seconds.
+  path: Packages/asset.epicvillage/Prefabs/epicvillage_trees_oak.prefab
+  artifactKey: Guid(dc449768aa68c44b082669429c6df3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.epicvillage/Prefabs/epicvillage_trees_oak.prefab using Guid(dc449768aa68c44b082669429c6df3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0937a675c32fcb2fa8d91eda7887436') in 0.019047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008548 seconds.
+  path: Packages/asset.epicvillage/Prefabs/epicvillage_trees_chestnut1.prefab
+  artifactKey: Guid(50f46a1ba306b406988b137bc0d2e1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.epicvillage/Prefabs/epicvillage_trees_chestnut1.prefab using Guid(50f46a1ba306b406988b137bc0d2e1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69c5205bfb09ebf964736ddfd1c973e') in 0.010547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067017 seconds.
+  path: Packages/asset.driving/Prefabs/driving_traffic_streetlight.prefab
+  artifactKey: Guid(2e760cdb8854a4551ab21f571d5c6c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.driving/Prefabs/driving_traffic_streetlight.prefab using Guid(2e760cdb8854a4551ab21f571d5c6c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9b32dfbb015d85f73cc3f79f875fcb') in 0.009996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.282853 seconds.
+  path: Packages/asset.city/Prefabs/city_trees_cedar.prefab
+  artifactKey: Guid(ac232b451273b4c5580dcf9d5d9b2053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.city/Prefabs/city_trees_cedar.prefab using Guid(ac232b451273b4c5580dcf9d5d9b2053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829fbfb8cdd8abaf56f5901552795a66') in 0.019343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015919 seconds.
+  path: Packages/asset.city/Prefabs/city_traffic_streetlightblub.prefab
+  artifactKey: Guid(718d6b1ae49f649ff83877a9ce7d9e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.city/Prefabs/city_traffic_streetlightblub.prefab using Guid(718d6b1ae49f649ff83877a9ce7d9e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e556f2463604d239183fd2d5622d6c0') in 0.009143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.268506 seconds.
+  path: Packages/asset.cherryblossom/Prefabs/cherryblossom_trees_cherryblossom4.prefab
+  artifactKey: Guid(7cb693a2e35824f1fb42b90c0cc2cc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.cherryblossom/Prefabs/cherryblossom_trees_cherryblossom4.prefab using Guid(7cb693a2e35824f1fb42b90c0cc2cc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d30ea5daf6368ac6008c5a6d8de9dd') in 0.022898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/asset.cherryblossom/Prefabs/cherryblossom_trees_cherryblossom2.prefab
+  artifactKey: Guid(9f52413e11c6443dcb7ad05ebb183e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.cherryblossom/Prefabs/cherryblossom_trees_cherryblossom2.prefab using Guid(9f52413e11c6443dcb7ad05ebb183e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1c563712ee8e1b925fd1926adbb1fe') in 0.021490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036231 seconds.
+  path: Packages/asset.cherryblossom/Prefabs/cherryblossom_trees_bamboo.prefab
+  artifactKey: Guid(c2a3fb8c322ab4542b0a71b14ce9a993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/asset.cherryblossom/Prefabs/cherryblossom_trees_bamboo.prefab using Guid(c2a3fb8c322ab4542b0a71b14ce9a993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ab7a5699b1ff968b1e9a50bc3e561c') in 0.010162 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
